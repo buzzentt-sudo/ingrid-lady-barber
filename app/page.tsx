@@ -4,6 +4,8 @@ import Image from 'next/image';
 import { useState } from 'react';
 
 const WHATSAPP = 'https://wa.me/5493442474708';
+const whatsappMessage = (message: string) =>
+  `${WHATSAPP}?text=${encodeURIComponent(message)}`;
 
 const services = [
   {
@@ -346,7 +348,7 @@ export default function Home() {
                   </p>
 
                   <a
-                    href={WHATSAPP}
+                    href={whatsappMessage(`Hola Ingrid 👋 Quisiera reservar un turno para ${service.title}. ¿Qué días y horarios tenés disponibles?`)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-7 inline-flex items-center gap-2 text-sm font-bold text-white/70 transition group-hover:text-[#c9a96e]"
@@ -432,7 +434,7 @@ export default function Home() {
                 </p>
 
                 <a
-                  href={WHATSAPP}
+                  href={whatsappMessage("Hola Ingrid 👋 Quisiera recibir información sobre el curso de barbería. ¿Me contás cómo puedo inscribirme?")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-9 inline-flex rounded-full bg-[#c9a96e] px-7 py-4 text-sm font-bold text-black transition hover:scale-105"
