@@ -67,8 +67,13 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-5 pt-4 sm:px-8">
           <nav className="glass premium-border flex items-center justify-between rounded-2xl px-5 py-4">
             <a href="#" className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full border border-[#c9a96e]/50 text-xs font-bold tracking-widest text-[#c9a96e]">
-                ILB
+              <div className="relative h-10 w-10 overflow-hidden rounded-full border border-[#c9a96e]/50">
+                <Image
+                  src="/logo.jpg"
+                  alt="Logo de Ingrid Lady Barber"
+                  fill
+                  className="object-cover"
+                />
               </div>
 
               <div className="hidden sm:block">
@@ -235,14 +240,17 @@ export default function Home() {
               <div className="absolute inset-12 rounded-full border border-white/[0.07]" />
 
               <div className="gold-glow relative flex h-[72%] w-[72%] flex-col items-center justify-center rounded-full border border-[#c9a96e]/30 bg-[#101010]">
-                <div className="text-center">
-                  <p className="text-xs font-semibold uppercase tracking-[0.4em] text-[#c9a96e]">
-                    Tu logo
-                  </p>
+                <div className="flex flex-col items-center">
+                  <div className="relative h-40 w-40 overflow-hidden rounded-full border border-[#c9a96e]/40 bg-black">
+                    <Image
+                      src="/logo.jpg"
+                      alt="Logo de Ingrid Lady Barber"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
 
-                  <div className="my-5 text-6xl">✂</div>
-
-                  <p className="text-2xl font-bold tracking-[0.12em]">
+                  <p className="mt-5 text-2xl font-bold tracking-[0.12em]">
                     INGRID
                   </p>
 
