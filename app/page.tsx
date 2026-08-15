@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-const WHATSAPP = 'https://wa.me/5493440000000';
+const WHATSAPP = 'https://wa.me/5493442474708';
 
 const services = [
   {
