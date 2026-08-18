@@ -189,6 +189,20 @@ export default function Home() {
               detalle está pensado para vos.
             </p>
 
+            <div className="mt-7 max-w-2xl rounded-2xl border border-[#c9a96e]/20 bg-[#c9a96e]/[0.05] p-5">
+              <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#c9a96e]">
+                🎓 Título nacional + matrícula profesional
+              </p>
+              <p className="mt-2 text-sm leading-6 text-white/55">
+                Formación respaldada por la Escuela de Peluquería y Afines del
+                Centro Profesional de Peluqueros y Peinadoras de Concordia,
+                Entre Ríos.
+              </p>
+              <p className="mt-2 text-xs font-semibold uppercase tracking-[0.15em] text-white/35">
+                Personería Jurídica N.º 672
+              </p>
+            </div>
+
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <a
                 href={WHATSAPP}
