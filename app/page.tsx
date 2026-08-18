@@ -199,7 +199,7 @@ export default function Home() {
                 Entre Ríos.
               </p>
               <p className="mt-2 text-xs font-semibold uppercase tracking-[0.15em] text-white/35">
-                Personería Jurídica N.º 672
+                Personería Jurídica N.º 072
               </p>
             </div>
 
