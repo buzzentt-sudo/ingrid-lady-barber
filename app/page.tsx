@@ -422,40 +422,77 @@ export default function Home() {
                 </div>
 
                 <h2 className="mt-7 max-w-2xl text-4xl font-bold leading-tight sm:text-6xl">
-                  Aprendé barbería.
+                  Cursos de barbería 💈
                   <br />
-                  <span className="text-[#c9a96e]">Creá tu futuro.</span>
+                  <span className="text-[#c9a96e]">& peluquería ✂️</span>
                 </h2>
 
-                <p className="mt-7 max-w-xl leading-7 text-white/45">
-                  Un curso pensado para quienes quieren comenzar en el mundo
-                  de la barbería, aprender técnicas profesionales y desarrollar
-                  su propio estilo.
+                <p className="mt-7 max-w-xl leading-7 text-white/60">
+                  Aprendé de manera presencial, desde cero y con acompañamiento.
+                  Una formación pensada para que puedas aprender, practicar y
+                  mejorar tus técnicas de corte.
                 </p>
 
+                <div className="mt-8">
+                  <p className="text-xs font-bold uppercase tracking-[0.25em] text-white/40">
+                    Inversión
+                  </p>
+
+                  <p className="mt-2 text-4xl font-bold text-[#c9a96e]">
+                    $50.000
+                    <span className="ml-2 text-base font-normal text-white/40">
+                      por mes
+                    </span>
+                  </p>
+                </div>
+
                 <a
-                  href={whatsappMessage("Hola Ingrid 👋 Quisiera recibir información sobre el curso de barbería. ¿Me contás cómo puedo inscribirme?")}
+                  href={whatsappMessage("Hola Ingrid 👋 Quisiera recibir información sobre los cursos presenciales de barbería y peluquería. ¿Me contás cómo puedo inscribirme?")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-9 inline-flex rounded-full bg-[#c9a96e] px-7 py-4 text-sm font-bold text-black transition hover:scale-105"
                 >
-                  Quiero información →
+                  Quiero inscribirme →
                 </a>
               </div>
 
-              <div className="grid gap-2 self-center">
-                {courseItems.map((item, index) => (
-                  <div
-                    key={item}
-                    className="flex items-center gap-4 rounded-xl border border-white/10 bg-white/[0.025] p-4"
-                  >
-                    <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-[#c9a96e]/30 text-xs font-bold text-[#c9a96e]">
-                      0{index + 1}
-                    </span>
+              <div className="grid gap-4 self-center">
+                <div className="rounded-2xl border border-[#c9a96e]/20 bg-white/[0.025] p-6">
+                  <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#c9a96e]">
+                    Duración
+                  </p>
 
-                    <span className="text-sm text-white/70">{item}</span>
+                  <div className="mt-5 grid gap-3">
+                    <div className="rounded-xl border border-white/10 bg-white/[0.025] p-4">
+                      <p className="font-bold text-white">
+                        3 meses
+                      </p>
+                      <p className="mt-1 text-sm text-white/45">
+                        Formación intensiva y práctica.
+                      </p>
+                    </div>
+
+                    <div className="rounded-xl border border-white/10 bg-white/[0.025] p-4">
+                      <p className="font-bold text-white">
+                        7 meses
+                      </p>
+                      <p className="mt-1 text-sm text-white/45">
+                        Ideal si necesitás más tiempo para aprender y practicar.
+                      </p>
+                    </div>
                   </div>
-                ))}
+                </div>
+
+                <div className="rounded-2xl border border-[#c9a96e]/20 bg-[#c9a96e]/5 p-6">
+                  <p className="text-lg font-bold text-white">
+                    ✂️ ¿Te cuesta cortar?
+                  </p>
+
+                  <p className="mt-2 text-sm leading-6 text-white/50">
+                    No te preocupes. Podés aprender desde cero, practicar y
+                    avanzar a tu ritmo con acompañamiento.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
