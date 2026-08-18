@@ -172,6 +172,10 @@ export default function Home() {
               <p className="text-xs font-bold uppercase tracking-[0.35em] text-[#c9a96e]">
                 Barbería & Formación
               </p>
+
+              <p className="mt-4 text-sm font-semibold uppercase tracking-[0.18em] text-white/70">
+                ✂️ Primera mujer barbera de Entre Ríos
+              </p>
             </div>
 
             <h1 className="max-w-4xl text-5xl font-bold leading-[0.98] tracking-[-0.04em] sm:text-7xl lg:text-[86px]">
@@ -524,25 +528,7 @@ export default function Home() {
 
       {/* SOBRE INGRID */}
       <section id="sobre-mi" className="border-y border-white/10 bg-[#0d0d0d] py-28">
-        <div className="mx-auto grid max-w-7xl gap-14 px-6 sm:px-8 lg:grid-cols-2 lg:items-center">
-          <div className="relative">
-            <div className="absolute -inset-5 rounded-[30px] border border-[#c9a96e]/10" />
-
-            <div className="relative flex aspect-[4/5] items-center justify-center overflow-hidden rounded-[24px] border border-white/10 bg-[#151515]">
-              <div className="text-center">
-                <div className="text-7xl opacity-20">ILB</div>
-
-                <p className="mt-5 text-xs uppercase tracking-[0.35em] text-white/25">
-                  Foto de Ingrid
-                </p>
-
-                <p className="mt-2 text-[10px] uppercase tracking-[0.2em] text-white/15">
-                  Espacio reservado
-                </p>
-              </div>
-            </div>
-          </div>
-
+        <div className="mx-auto max-w-4xl px-6 sm:px-8">
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.35em] text-[#c9a96e]">
               Sobre Ingrid
