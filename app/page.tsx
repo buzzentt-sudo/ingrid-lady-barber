@@ -490,6 +490,38 @@ export default function Home() {
         </div>
       </section>
 
+      {/* VIDEO DEL CURSO */}
+      <section className="border-y border-white/10 bg-[#0d0d0d] py-24">
+        <div className="mx-auto max-w-5xl px-6 sm:px-8">
+          <div className="text-center">
+            <p className="text-xs font-bold uppercase tracking-[0.35em] text-[#c9a96e]">
+              Conocé nuestra formación
+            </p>
+
+            <h2 className="mt-5 text-3xl font-bold sm:text-5xl">
+              Aprendé haciendo. ✂️
+            </h2>
+
+            <p className="mx-auto mt-5 max-w-xl leading-7 text-white/45">
+              Mirá un poco de lo que podés aprender en nuestros cursos
+              presenciales de barbería y peluquería.
+            </p>
+          </div>
+
+          <div className="mx-auto mt-12 max-w-sm overflow-hidden rounded-[28px] border border-[#c9a96e]/20 bg-black shadow-2xl">
+            <video
+              className="h-auto w-full"
+              controls
+              playsInline
+              preload="metadata"
+            >
+              <source src="/curso-barberia.mp4" type="video/mp4" />
+              Tu navegador no puede reproducir este video.
+            </video>
+          </div>
+        </div>
+      </section>
+
       {/* SOBRE INGRID */}
       <section id="sobre-mi" className="border-y border-white/10 bg-[#0d0d0d] py-28">
         <div className="mx-auto grid max-w-7xl gap-14 px-6 sm:px-8 lg:grid-cols-2 lg:items-center">
