@@ -377,23 +377,41 @@ export default function Home() {
           </div>
 
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-            {[1, 2, 3, 4].map((item) => (
-              <div
-                key={item}
-                className={`group relative flex min-h-[280px] items-center justify-center overflow-hidden rounded-2xl border border-white/10 bg-[#161616] ${
-                  item === 1 ? 'lg:col-span-2' : ''
-                }`}
-              >
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(201,169,110,0.10),transparent_55%)] opacity-0 transition duration-500 group-hover:opacity-100" />
+            <div className="group relative min-h-[280px] overflow-hidden rounded-2xl border border-white/10 bg-[#161616] lg:col-span-2">
+              <img
+                src="/trabajo-ingrid-1.jpg"
+                alt="Trabajo de barbería realizado por Ingrid"
+                className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+            </div>
 
-                <div className="relative text-center">
-                  <div className="text-4xl opacity-30">✂</div>
-                  <p className="mt-4 text-[10px] font-bold uppercase tracking-[0.3em] text-white/25">
-                    Foto del trabajo {item}
-                  </p>
-                </div>
+            <div className="group relative min-h-[280px] overflow-hidden rounded-2xl border border-white/10 bg-[#161616]">
+              <img
+                src="/trabajo-ingrid-2.jpg"
+                alt="Trabajo de barbería realizado por Ingrid"
+                className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+            </div>
+
+            <div className="flex min-h-[280px] items-center justify-center rounded-2xl border border-white/10 bg-[#161616]">
+              <div className="text-center">
+                <div className="text-4xl opacity-30">✂</div>
+                <p className="mt-4 text-[10px] font-bold uppercase tracking-[0.3em] text-white/25">
+                  Próximamente
+                </p>
               </div>
-            ))}
+            </div>
+
+            <div className="flex min-h-[280px] items-center justify-center rounded-2xl border border-white/10 bg-[#161616]">
+              <div className="text-center">
+                <div className="text-4xl opacity-30">✂</div>
+                <p className="mt-4 text-[10px] font-bold uppercase tracking-[0.3em] text-white/25">
+                  Próximamente
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
