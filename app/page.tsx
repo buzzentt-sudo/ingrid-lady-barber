@@ -556,7 +556,18 @@ export default function Home() {
 
       {/* SOBRE INGRID */}
       <section id="sobre-mi" className="border-y border-white/10 bg-[#0d0d0d] py-28">
-        <div className="mx-auto max-w-4xl px-6 sm:px-8">
+        <div className="mx-auto grid max-w-7xl gap-14 px-6 sm:px-8 lg:grid-cols-2 lg:items-center">
+          <div className="relative">
+            <div className="absolute -inset-5 rounded-[30px] border border-[#c9a96e]/10" />
+            <div className="relative aspect-[4/5] overflow-hidden rounded-[24px] border border-white/10 bg-[#151515]">
+              <img
+                src="/ingrid.jpg"
+                alt="Ingrid, barbera y formadora"
+                className="h-full w-full object-cover"
+              />
+            </div>
+          </div>
+
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.35em] text-[#c9a96e]">
               Sobre Ingrid
