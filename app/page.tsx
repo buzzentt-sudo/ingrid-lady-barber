@@ -531,6 +531,36 @@ export default function Home() {
           </div>
 
           <div className="mx-auto mt-12 max-w-sm overflow-hidden rounded-[28px] border border-[#c9a96e]/20 bg-black shadow-2xl">
+            <div className="border-b border-white/10 px-5 py-4 text-left">
+              <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#c9a96e]">
+                Ingrid en clase ✂️
+              </p>
+              <p className="mt-1 text-sm text-white/45">
+                Conocé cómo es una clase de formación.
+              </p>
+            </div>
+
+            <video
+              className="h-auto w-full"
+              controls
+              playsInline
+              preload="metadata"
+            >
+              <source src="/curso-ingrid.mp4" type="video/mp4" />
+              Tu navegador no puede reproducir este video.
+            </video>
+          </div>
+
+          <div className="mx-auto mt-8 max-w-sm overflow-hidden rounded-[28px] border border-[#c9a96e]/20 bg-black shadow-2xl">
+            <div className="border-b border-white/10 px-5 py-4 text-left">
+              <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#c9a96e]">
+                Mirá la formación
+              </p>
+              <p className="mt-1 text-sm text-white/45">
+                Una muestra de lo que podés aprender.
+              </p>
+            </div>
+
             <video
               className="h-auto w-full"
               controls
