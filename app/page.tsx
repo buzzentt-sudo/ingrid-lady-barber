@@ -34,15 +34,6 @@ const services = [
   },
 ];
 
-const courseItems = [
-  'Introducción a la barbería',
-  'Manejo correcto de herramientas',
-  'Técnicas de corte',
-  'Degradados y terminaciones',
-  'Perfilado y trabajo de barba',
-  'Práctica y acompañamiento',
-];
-
 const testimonials = [
   {
     text: 'Excelente atención y un resultado increíble. Se nota la dedicación.',
