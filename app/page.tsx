@@ -8,78 +8,14 @@ const whatsappMessage = (message: string) =>
   `${WHATSAPP}?text=${encodeURIComponent(message)}`;
 
 const services = [
-  {
-    number: '01',
-    title: 'Corte',
-    description: 'Cortes personalizados y adaptados a tu estilo.',
-    price: '$10.000',
-  },
-  {
-    number: '02',
-    title: 'Corte + Barba',
-    description: 'Una combinación completa para renovar tu look.',
-    price: '$15.000',
-  },
-  {
-    number: '03',
-    title: 'Barba',
-    description: 'Perfilado, definición y terminación prolija.',
-    price: '$8.000',
-  },
-  {
-    number: '04',
-    title: 'Completo',
-    description: 'Una experiencia completa con atención al detalle.',
-    price: '$10.000',
-  },
-  {
-    number: '05',
-    title: 'Clásico',
-    description: 'Un estilo clásico, prolijo y personalizado.',
-    price: '$10.000',
-  },
-  {
-    number: '06',
-    title: 'Diseño Freestyle',
-    description: 'Diseños personalizados para darle un toque único a tu estilo.',
-    price: '$10.000',
-  },
-  {
-    number: '07',
-    title: 'Rasurado',
-    description: 'Rasurado prolijo y definido con terminación profesional.',
-    price: '$8.000',
-  },
-  {
-    number: '08',
-    title: 'Balayage',
-    description: 'Color y técnica personalizada para renovar tu look.',
-    price: '$80.000',
-  },
-  {
-    number: '09',
-    title: 'Claritos',
-    description: 'Iluminaciones para darle luz y estilo a tu cabello.',
-    price: '$80.000',
-  },
-  {
-    number: '10',
-    title: 'Corte Dama',
-    description: 'Cortes personalizados adaptados a tu estilo.',
-    price: '$20.000',
-  },
-  {
-    number: '11',
-    title: 'Curso Barbería',
-    description: 'Formación práctica para aprender y perfeccionar técnicas de barbería.',
-    price: '$50.000',
-  },
-  {
-    number: '12',
-    title: 'Curso Peluquería',
-    description: 'Formación práctica para aprender y perfeccionar técnicas de peluquería.',
-    price: '$50.000',
-  },
+  { number: "01", title: "Lavado", description: "Lavado profesional para cuidar y preparar tu cabello.", price: "$10.000" },
+  { number: "02", title: "Corte", description: "Corte personalizado y adaptado a tu estilo.", price: "$15.000" },
+  { number: "03", title: "Nutrición", description: "Tratamiento de nutrición para devolverle vida y suavidad al cabello.", price: "$35.000" },
+  { number: "04", title: "Peinado", description: "Peinados personalizados para cada ocasión.", price: "$27.000" },
+  { number: "05", title: "Alisado S/LAR", description: "Alisado profesional para lograr un cabello más liso y prolijo.", price: "$47.000" },
+  { number: "06", title: "Ondas peinado", description: "Ondas y peinados personalizados para completar tu look.", price: "$15.000" },
+  { number: "07", title: "Tintura", description: "Coloración personalizada para renovar tu look.", price: "$40.000" },
+  { number: "08", title: "Reflejos S/LAR", description: "Reflejos personalizados para darle luz y dimensión a tu cabello.", price: "$60.000" },
 ];
 
 const testimonials = [
@@ -439,7 +375,7 @@ export default function Home() {
           </div>
 
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-            {[1, 2, 3, 4, 5, 6].map((item) => (
+            {[2, 3, 4, 5, 6].map((item) => (
               <div
                 key={item}
                 className={`group relative min-h-[280px] overflow-hidden rounded-2xl border border-white/10 bg-[#161616] ${
