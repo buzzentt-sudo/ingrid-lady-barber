@@ -413,29 +413,29 @@ export default function Home() {
                 </div>
 
                 <h2 className="mt-7 max-w-2xl text-4xl font-bold leading-tight sm:text-6xl">
-                  Cursos de barbería 💈
-                  <br />
-                  <span className="text-[#c9a96e]">& peluquería ✂️</span>
-                </h2>
+              Cursos de formación profesional
+            </h2>
 
-                <p className="mt-7 max-w-xl leading-7 text-white/60">
-                  Aprendé de manera presencial, desde cero y con acompañamiento.
-                  Una formación pensada para que puedas aprender, practicar y
-                  mejorar tus técnicas de corte.
-                </p>
+            <p className="mt-7 max-w-xl leading-7 text-white/60">
+              Aprendé de manera presencial, desde cero y con acompañamiento.
+              Una formación pensada para que puedas aprender, practicar y
+              mejorar tus técnicas de corte.
+            </p>
 
-                <div className="mt-8">
-                  <p className="text-xs font-bold uppercase tracking-[0.25em] text-white/40">
-                    Inversión
-                  </p>
-
-                  <p className="mt-2 text-4xl font-bold text-[#c9a96e]">
-                    $50.000
-                    <span className="ml-2 text-base font-normal text-white/40">
-                      por mes
-                    </span>
-                  </p>
-                </div>
+            <div className="mt-8 grid gap-3 sm:grid-cols-3">
+              <div className="rounded-2xl border border-[#c9a96e]/20 bg-white/[0.025] p-5">
+                <p className="text-sm font-bold text-white">✂️ Curso de Barbería</p>
+                <p className="mt-2 text-2xl font-bold text-[#c9a96e]">$50.000</p>
+              </div>
+              <div className="rounded-2xl border border-[#c9a96e]/20 bg-white/[0.025] p-5">
+                <p className="text-sm font-bold text-white">💇‍♀️ Curso de Peluquería</p>
+                <p className="mt-2 text-2xl font-bold text-[#c9a96e]">$50.000</p>
+              </div>
+              <div className="rounded-2xl border border-[#c9a96e]/20 bg-white/[0.025] p-5">
+                <p className="text-sm font-bold text-white">🎨 Curso de Colorimetría</p>
+                <p className="mt-2 text-2xl font-bold text-[#c9a96e]">$50.000</p>
+              </div>
+            </div>
 
                 <a
                   href={whatsappMessage("Hola Ingrid 👋 Quisiera recibir información sobre los cursos presenciales de barbería y peluquería. ¿Me contás cómo puedo inscribirme?")}
